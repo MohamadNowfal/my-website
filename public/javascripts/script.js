@@ -38,3 +38,20 @@ form.addEventListener('submit', e => {
     })
     .catch(error => console.error('Error!', error.message))
 })
+function allwork() {
+    var workDiv = document.getElementById("not-active");
+    var workbtn=document.getElementById('not-active-btn')
+    var workbtn1=document.getElementById('active-btn')
+
+    if (workDiv.style.display === "none") {
+        workDiv.style.display = "block";
+        workbtn.style.display = "block";
+        workbtn1.style.display = "none";
+    } else {
+        workDiv.style.display = "none";
+        workbtn.style.display = "none";
+        workbtn1.style.display = "block";
+
+
+    }
+}
