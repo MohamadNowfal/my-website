@@ -113,7 +113,7 @@ nav ul li a:hover::after {
 
 .tab-titles {
   display: flex;
-  margin: 20px 0px 40px;
+  margin: 40px 0px 40px;
 }
 .tab-links {
   margin-right: 50px;
@@ -285,6 +285,14 @@ nav ul li a:hover::after {
   background: #ff004f;
 }
 
+#not-active{
+
+  display: none;
+}
+#not-active-btn{
+  display: none;
+
+}
 /* ---------------------contact------------------------------ */
 .contact-left {
   flex-basis: 35%;
@@ -355,7 +363,22 @@ form .btn2{
   background: #262626;
   margin-top: 20px;
 }
-
+.resume-view-btn{
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 3px 7px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  transition: background 0.5s;
+  display: inline-block;
+  background: #ff004f;
+}
+.resume-view-btn:hover {
+  background: #bf3661;
+}
 /* ------------------css for small screen---------------- */
 nav .fa-solid{
   display: none;
