@@ -359,9 +359,10 @@ form .btn2{
 .copyright{
   width: 100%;
   text-align: center;
-  padding: 25px 0;
+  padding: 5px 0;
   background: #262626;
   margin-top: 20px;
+  /* border: 1px solid red; */
 }
 .resume-view-btn{
   display: block;
@@ -379,6 +380,18 @@ form .btn2{
 .resume-view-btn:hover {
   background: #bf3661;
 }
+
+.counter{
+  display: flex;
+justify-content: flex-end;
+margin-right: 20px;
+/* border: 1px solid red; */
+padding: 10px;
+}
+.counter-main{
+  background: #262626;
+}
+
 /* ------------------css for small screen---------------- */
 nav .fa-solid{
   display: none;
