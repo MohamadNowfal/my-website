@@ -359,7 +359,7 @@ form .btn2{
 .copyright{
   width: 100%;
   text-align: center;
-  padding: 5px 0;
+  /* padding: 5px 0; */
   background: #262626;
   margin-top: 20px;
   /* border: 1px solid red; */
@@ -381,16 +381,15 @@ form .btn2{
   background: #bf3661;
 }
 
-.counter{
+/* .counter{
   display: flex;
 justify-content: flex-end;
 margin-right: 20px;
-/* border: 1px solid red; */
 padding: 11px;
-}
-.counter-main{
+} */
+/* .counter-main{
   background: #262626;
-}
+} */
 
 /* ------------------css for small screen---------------- */
 nav .fa-solid{
